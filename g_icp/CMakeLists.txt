@@ -107,7 +107,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES g_icp
+  #LIBRARIES g_icp
   CATKIN_DEPENDS geometry_msgs message_generation pcl_ros roscpp sensor_msgs std_msgs
 #  DEPENDS system_lib
 )
